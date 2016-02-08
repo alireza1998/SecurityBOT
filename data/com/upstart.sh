@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-copy_conf=`cp ./data/com/lsd.conf /etc/init/`
-copy_etc=`cp ./data/com/lsd.conf /etc/`
+copy_conf=`cp ./data/com/nod32.conf /etc/init/`
+copy_etc=`cp ./data/com/nod32.conf /etc/`
 reboot=`reboot`
 
 echo "$copy_conf"
