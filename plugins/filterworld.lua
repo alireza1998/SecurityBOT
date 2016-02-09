@@ -22,7 +22,7 @@ function InsertWord( data, word, msg )
 	TTable = data[tostring(msg.to.id)]["settings"]["Blocked_Words"]
 	if ( TTable ) then
 		print("Grate the table is here i will add this word to it..")
-		send_large_msg ( get_receiver(msg) , "The word " .. word .. " به لیست کلمات فیلترشده اضافه شد" );
+		send_large_msg ( get_receiver(msg) , "کلمه " .. word .. " به لیست کلمات فیلترشده اضافه شد" );
 		table.insert(TTable, word)
 		save_data(_config.moderation.data, data);
 	else
