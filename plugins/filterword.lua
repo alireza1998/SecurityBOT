@@ -131,7 +131,7 @@ return {
     "^([/!]filter) (.+) (%d+)$",
     "^([/!]filter) (.+) (.+)$",
     "^([/!]filter) (.+)$",
-    "^[Ll]ist$"
+    "^([/!]listfilter)
     },
     run = run
 } 
