@@ -121,7 +121,7 @@ local function run(msg,matches)
     end
     if matches[1] == "setbotphoto" then
     	redis:set("bot:photo", "waiting")
-    	return 'عکس رباتو بفرست بیاد
+    	return 'عکس رباتو بفرست بیاد'
     end
     if matches[1] == "markread" then
     	if matches[2] == "on" then
@@ -187,7 +187,6 @@ return {
   },
   run = run,
 }
-
 --Copyright and edit; @behroozyaghi
 --Persian Translate; @behroozyaghi
 --ch : @nod32team
