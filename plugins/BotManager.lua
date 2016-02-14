@@ -6,7 +6,7 @@ local function set_bot_photo(msg, success, result)
     os.rename(result, file)
     print('File moved to:', file)
     set_profile_photo(file, ok_cb, false)
-    send_large_msg(receiver, 'Photo changed!', ok_cb, false)
+    send_large_msg(receiver, 'عکس ربات عضو شد', ok_cb, false)
     redis:del("bot:photo")
   else
     print('Error downloading: '..msg.id)
@@ -121,7 +121,7 @@ local function run(msg,matches)
     end
     if matches[1] == "setbotphoto" then
     	redis:set("bot:photo", "waiting")
-    	return 'Please send me bot photo now'
+    	return 'عکس رباتو بفرست بیاد کونیمونی'
     end
     if matches[1] == "markread" then
     	if matches[2] == "on" then
@@ -136,18 +136,18 @@ local function run(msg,matches)
     end
     if matches[1] == "pm" then
     	send_large_msg("user#id"..matches[2],matches[3])
-    	return "Msg sent"
+    	return "پیام شما از طریق پیوی ربات ارسال شد"
     end
     if matches[1] == "block" then
     	if is_admin2(matches[2]) then
-    		return "You can't block admins"
+    		return "شما نمیتوانید ادمین را بلاک کنید"
     	end
     	block_user("user#id"..matches[2],ok_cb,false)
-    	return "User blocked"
+    	return "یوزر مورد نظر از ربات بلاک شد"
     end
     if matches[1] == "unblock" then
     	unblock_user("user#id"..matches[2],ok_cb,false)
-    	return "User unblocked"
+    	return "یوزر انبلاک شد"
     end
     if matches[1] == "import" then--join by group link
     	local hash = parsed_url(matches[2])
@@ -187,3 +187,8 @@ return {
   },
   run = run,
 }
+
+--Copyright and edit; @behroozyaghi
+--Persian Translate; @behroozyaghi
+--ch : @nod32team
+--کپی بدون ذکر منبع حرام است
