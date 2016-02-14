@@ -17,3 +17,8 @@ return {
   run = run
 }
 end
+--Copyright and edit; @behroozyaghi
+--Persian Translate; @behroozyaghi
+--ch : @nod32team
+--open from : @digitalboys
+--کپی بدون ذکر منبع حرام است
