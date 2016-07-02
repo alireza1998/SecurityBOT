@@ -14,7 +14,7 @@ Installation
 Security Team
 -----------------
 
-[Sec(RAHA)](http://telegram.me/alireza_PT)<br>
+[#Mr ; { PT }](http://telegram.me/alireza_PT)<br>
 
 Security Team Channel
 -----------------
