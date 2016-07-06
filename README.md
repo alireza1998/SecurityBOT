@@ -1,4 +1,7 @@
 # SecurityBOT
+
+* **Open source field soon**
+
 ============
 # امکانات مدیریتی
 
@@ -80,7 +83,8 @@ A Telegram Bot based on [TeleSeed](https://github.com/SEEDTEAM/TeleSeed).
 | <html>&#91;</html>#!/](un)lock Political words | N | Y |
 | <html>&#91;</html>#!/](un)lock Group Support | N | Y |
 | <html>&#91;</html>#!/](un)lock Group Welcome | N | Y |
-# and more!
+* **and more!**
+
 
 
 ## Switch and traffic model 
@@ -92,6 +96,7 @@ A Telegram Bot based on [TeleSeed](https://github.com/SEEDTEAM/TeleSeed).
 | <html>&#91;</html>#!/](un)lock Security | Y | Y | --Set the robot on security mode function
 | <html>&#91;</html>#!/](un)lock family | Y | Y | --Normal family mode for groups with low traffic
 | <html>&#91;</html>#!/](un)lock all | Y | Y | --Lock all settings
+* **and more!**
 
 
 ### Mutes
@@ -110,6 +115,7 @@ A Telegram Bot based on [TeleSeed](https://github.com/SEEDTEAM/TeleSeed).
 | [#!/]mute gifs |
 | [#!/]mute text |
 | [#!/]mute all |
+* **and more!**
 
 
 
