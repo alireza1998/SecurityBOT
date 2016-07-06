@@ -37,6 +37,82 @@
 
 A Telegram Bot based on [TeleSeed](https://github.com/SEEDTEAM/TeleSeed).
 
+
+## Settings 
+
+| Command | Groups? | SuperGroups? |
+|:--------|:--------|:-------------|
+| <html>&#91;</html>#!/](un)lock links | Y | Y |
+| <html>&#91;</html>#!/](un)lock flood | Y | Y |
+| <html>&#91;</html>#!/]setflood [5-20] | Y | Y |
+| <html>&#91;</html>#!/](un)lock bots | Y | N |
+| <html>&#91;</html>#!/](un)lock spam | Y | Y |
+| <html>&#91;</html>#!/](un)lock arabic | Y | Y |
+| <html>&#91;</html>#!/](un)lock member | Y | Y |
+| <html>&#91;</html>#!/](un)lock leave | Y | N |
+| <html>&#91;</html>#!/](un)lock RTL | Y | Y |
+| <html>&#91;</html>#!/](un)lock tgservice | N | Y |
+| <html>&#91;</html>#!/](un)lock sticker | Y| Y |
+| <html>&#91;</html>#!/]public [yes<html>&#124;</html>no] | Y | Y |
+| <html>&#91;</html>#!/](un)lock Badwords | N | Y |
+| <html>&#91;</html>#!/](un)lock Join | N | Y |
+| <html>&#91;</html>#!/](un)lock Emoji | N | Y |
+| <html>&#91;</html>#!/](un)lock Emoji(Poker) | N | Y |
+| <html>&#91;</html>#!/](un)lock English | N | Y |
+| <html>&#91;</html>#!/](un)lock Reply | N | Y |
+| <html>&#91;</html>#!/](un)lock Chat | N | Y |
+| <html>&#91;</html>#!/](un)lock Media | N | Y |
+| <html>&#91;</html>#!/](un)lock Gifs | N | Y |
+| <html>&#91;</html>#!/](un)lock Video | N | Y |
+| <html>&#91;</html>#!/](un)lock Tags | N | Y |
+| <html>&#91;</html>#!/](un)lock BOTs(API) | N | Y |
+| <html>&#91;</html>#!/](un)lock BOTs(CLI) | N | Y |
+| <html>&#91;</html>#!/](un)lock Forward | N | Y |
+| <html>&#91;</html>#!/](un)lock Username | N | Y |
+| <html>&#91;</html>#!/](un)lock Hashtag | N | Y |
+| <html>&#91;</html>#!/](un)lock Commands | N | Y |
+| <html>&#91;</html>#!/](un)lock kickme Command | N | Y |
+| <html>&#91;</html>#!/](un)lock Linkpro | N | Y |
+| <html>&#91;</html>#!/](un)lock porn Pictures | N | Y |
+| <html>&#91;</html>#!/](un)lock Porn Words | N | Y |
+| <html>&#91;</html>#!/](un)lock Webpage | N | Y |
+| <html>&#91;</html>#!/](un)lock Operator | N | Y |
+| <html>&#91;</html>#!/](un)lock Political words | N | Y |
+| <html>&#91;</html>#!/](un)lock Group Support | N | Y |
+| <html>&#91;</html>#!/](un)lock Group Welcome | N | Y |
+# and more!
+
+
+## Switch and traffic model 
+
+| Command | Groups? | SuperGroups? |
+|:--------|:--------|:-------------|
+| <html>&#91;</html>#!/](un)lock high | Y | Y | --Set the robot on the mode of operation of heavy traffic
+| <html>&#91;</html>#!/](un)lock low | Y | Y | --Set the mode of operation of the robot on light traffic
+| <html>&#91;</html>#!/](un)lock Security | Y | Y | --Set the robot on security mode function
+| <html>&#91;</html>#!/](un)lock family | Y | Y | --Normal family mode for groups with low traffic
+| <html>&#91;</html>#!/](un)lock all | Y | Y | --Lock all settings
+
+
+### Mutes
+
+| Command |
+|:--------|
+| [#!/]mute audio |
+| [#!/]mute video |
+| [#!/]mute photo |
+| [#!/]mute Adult content |
+| [#!/]mute contacts |
+| [#!/]mute forward |
+| [#!/]mute TGservice |
+| [#!/]mute Tags |
+| [#!/]mute documents |
+| [#!/]mute gifs |
+| [#!/]mute text |
+| [#!/]mute all |
+
+
+
 # راهنمای نصب و اجرا
 
 ```sh
