@@ -1,6 +1,6 @@
 # SecurityBOT
 ============
-# Features
+# امکانات مدیریتی
 
 * **دارای سیستم قدرت مند برای مدیریت گروه**
 * **دارای سیستم پیشرفته ضد ربات های(XY)**
@@ -16,7 +16,7 @@
 * **سیستم حرفه ای ضد ربات های API Spammer**
 * **تغییرات اساسی در پایه **
 * **خدمات تلگرام آپدیت شده و ضد کرش**
-* **و قابلیا های بیشتر!**
+* **و قابلیت های بیشتر **
 ------------
 * **A powerful antispam system with custom sensitivity for each group**
 * **Multiple realms (admin groups)**
@@ -38,20 +38,49 @@
 
 A Telegram Bot based on [TeleSeed](https://github.com/SEEDTEAM/TeleSeed).
 
-Installation
-------------
-```bash
-# Tested on Ubuntu 14.04, for other OSs check out https://github.com/yagop/telegram-bot/wiki/Installation
-#soon
+# راهنمای نصب و اجرا
+
+```sh
+# تست و بررسی شده بر روی سیستم عامل Ubuntu 14.04
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev tmux subversion
+
+
+# برای ادامه مراحل نصب
+cd $HOME
+git clone https://github.com/alireza1998/SecurityBOT.git -b supergroups
+cd SecurityBOT
+chmod +x launch.sh
+./launch.sh install
+./launch.sh # و بعد از این مرحله شماره را برای اجرای ربات وارد کنید
+```
+# Installation
+
+```sh
+# Install dependencies.
+# Tested on Ubuntu 14.04. For other OSs, check out https://github.com/yagop/telegram-bot/wiki/Installation
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev tmux subversion
+
+# Let's install the bot.
+cd $HOME
+git clone https://github.com/alireza1998/SecurityBOT.git -b supergroups
+cd SecurityBOT
+chmod +x launch.sh
+./launch.sh install
+./launch.sh # Enter a phone number & confirmation code.
 ```
 
-
-Security Team
+# Security Team
 -----------------
 
 [#Mr ; { PT }](http://telegram.me/alireza_PT)<br>
 
-Security Team Channel
+# Security Team Channel
 -----------------
 
 [Create_antispam_bot](http://telegram.me/Create_antispam_bot)
