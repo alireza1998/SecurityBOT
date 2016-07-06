@@ -14,7 +14,7 @@
 * **دارا داشتن تنظیمات چندگاه مدیریتی**
 * **لیست گروه های ربات**
 * **سیستم حرفه ای ضد ربات های API Spammer**
-* **تغییرات اساسی در پایه **
+* **تغییرات اساسی در پایه**
 * **خدمات تلگرام آپدیت شده و ضد کرش**
 * **و قابلیت های بیشتر **
 ------------
@@ -23,15 +23,14 @@
 * **Recalcitrant to any kind of spamming (X/Y bots, name/photo changers, etc.)**
 * **Global banning**
 * **Broadcast to all groups**
-* **Group and  links**
 * **Kick, ban and unban by reply**
 * **Groups, ban and global ban list**
 * **Logging anything that happens in a group**
 * **Invitation by username**
-* **Group administration via private messages**
+* **Anti-spam robot system api**
 * **Only mods, owner and admin can add bots in groups**
-* **Arabic lock**
-* **Lock TgService**
+* **It has several sections settings**
+* **More than 60 advanced locks professional**
 * **Chat list**
 * **And more!**
 
@@ -74,13 +73,19 @@ chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
 ```
+----------------
+# Special thanks to
+* **SEEDTEAM**
 
-# Security Team
+
+# Our team!
 -----------------
 
 [#Mr ; { PT }](http://telegram.me/alireza_PT)<br>
 
-# Security Team Channel
+
+### Our Telegram channels:
 -----------------
 
-[Create_antispam_bot](http://telegram.me/Create_antispam_bot)
+
+Persian: [AntiSpamBOT](https://telegram.me/create_antispam_bot)
