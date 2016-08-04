@@ -225,30 +225,14 @@ function create_config( )
     },
     sudo_users = {159887854,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [SecurityBOT v3.7
+Unique and powerful Bot Based On TeleSeed 
+Developer&Manager :[ @aliReza_PT/@CliApi ]
+pmresan: @alireza_PT_BOT & pmSecurityBOT
+Our channel: @create_antispam_bot
+GITHUB: https://github.com/alireza1998/SecurityBOT
 
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-
-Our website 
-http://teleseed.seedteam.org/
+New developments with us :)
 ]],
     help_text_realm = [[
 ]],
