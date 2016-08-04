@@ -1,4 +1,4 @@
-# SecurityBOT
+# [SecurityBOT](https://telegram.me/TGSecurityBOT)
 ============
 # امکانات مدیریتی
 
@@ -148,6 +148,28 @@ cd SecurityBOT
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
+```
+----------------
+
+# راهنمای اجرا بصورت Auto Launch
+
+```sh
+# مراحل زیر را دنبال کنید 
+
+cd SecurityBOT
+tmux new-session -s script "bash steady.sh -t"
+# سپس ربات شما با اسکریپت steady.sh اجرا میشود
+----------------
+
+# برای دومین بار اگر نیاز به خاموش کردن ربات داشتید برای اجرای مجدد این اسکریپت مراحا زیر را طی کنید
+cd SecurityBOT
+git clone https://github.com/alireza1998/SecurityBOT.git -b supergroups
+cd SecurityBOT
+killall screen
+killall tmux
+killall telegram-cli
+tmux new-session -s script "bash steady.sh -t"
+و برای هر بار خاموشی این مراحل را تکرار کنید :)
 ```
 ----------------
 # Special thanks to
