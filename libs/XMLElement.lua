@@ -50,7 +50,7 @@ mt ={ __index = {
 				break
 			end
 		end
-		lom.attr[attribute]=nil 
+		lom.attr[attribute]=nil
 	end,
 	
 	removeAllAttributes = function(self)
