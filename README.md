@@ -110,6 +110,7 @@ A Telegram Bot based on [TeleSeed](https://github.com/SEEDTEAM/TeleSeed).
 | [#!/]mute gifs |
 | [#!/]mute text |
 | [#!/]mute all |
+| [#!/]mute media |
 
 
 
@@ -162,8 +163,6 @@ tmux new-session -s script "bash steady.sh -t"
 ----------------
 
 # برای دومین بار اگر نیاز به خاموش کردن ربات داشتید برای اجرای مجدد این اسکریپت مراحا زیر را طی کنید
-cd SecurityBOT
-git clone https://github.com/alireza1998/SecurityBOT.git -b supergroups
 cd SecurityBOT
 killall screen
 killall tmux
